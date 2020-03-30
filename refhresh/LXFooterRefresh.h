@@ -12,6 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface LXFooterRefresh : MJRefreshFooter
 
+@property (nonatomic, copy) NSString *test;
 @end
 
 NS_ASSUME_NONNULL_END
